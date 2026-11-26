@@ -1,0 +1,34 @@
+name: Checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v7
+        with:
+          version: "0.13.4"
+          python-version: "3.13"
+          enable-cache: true
+      - name: Install dependencies
+        run: uv sync --locked
+      - name: Check types
+        run: uv run --locked mypy
+      - name: Lint
+        run: uv run --locked ruff check src tests app.py docker/runner.py
+      - name: Build execution image
+        run: docker build -t csv-agent-python:0.1 docker
+      - name: Run tests
+        run: uv run --locked pytest -q -m 'not live'
+      - name: Build package
+        run: uv build --no-sources

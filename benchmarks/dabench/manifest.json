@@ -1,0 +1,1522 @@
+{
+  "schema_version": 1,
+  "dataset": {
+    "repository": "https://huggingface.co/datasets/infiagent/DABench",
+    "revision": "b455d578e30fee513abd79936cbdf7a6de026cb5",
+    "questions_file": "da-dev-questions.jsonl",
+    "questions_sha256": "430306c5813bf4f2b0e38f1b6ccee9693c36d5920b3322bd7c8ae46f475ce443",
+    "labels_file": "da-dev-labels.jsonl",
+    "labels_sha256": "83b8fb8133c1794fcb6b42435e9cce124d22f68b71e2eedb37c973e40b5a18c2",
+    "scope": "public validation subset; local development/final split, not hidden test"
+  },
+  "scorer": {
+    "repository": "https://github.com/InfiAgent/InfiAgent",
+    "revision": "3d6c4a70198e0a41fadf539f5b43c88b8c1a2d9c",
+    "path": "examples/DA-Agent/eval_closed_form.py",
+    "sha256": "8c4cbeed80c6c95aca65f72cea3213581629e81894a0fa5a496f22726b6e4501",
+    "vendored_sha256": "c552081bd9d4b3608b92b1dbd638c3c904c3d847474e94c5c0156a05668445af"
+  },
+  "tables": {
+    "0020200722.csv": {
+      "sha256": "d9b292cecc04c3993caf084927a1318feb990e641accc966d367eedc6d9c349a",
+      "size_bytes": 32429
+    },
+    "2014_q4.csv": {
+      "sha256": "f1ec88490c4cf2fde96a2783f2962743a126e66e59b16d83378192941b5dbd82",
+      "size_bytes": 5615
+    },
+    "2015.csv": {
+      "sha256": "d79be64d11b4e36159242055e028e29ee6b4c3da6838e62d7a925bdde26eab5d",
+      "size_bytes": 16557
+    },
+    "20170413_000000_group_statistics.csv": {
+      "sha256": "17da5edda18a5a5c2168f5f06a0a90604efef810cac0d17492723ddad2685753",
+      "size_bytes": 5692
+    },
+    "3901.csv": {
+      "sha256": "86e7e9f8c381c36441f72800f20c011497351541e1e9a9d3f532844922c447ae",
+      "size_bytes": 220784
+    },
+    "Credit.csv": {
+      "sha256": "eb75b3d418d190a4b71f01a8333c49819928591b5a0e1f595546f1987358f875",
+      "size_bytes": 21967
+    },
+    "Current_Logan.csv": {
+      "sha256": "045a58d23610362327912f887c6bf24e0ddde01a46bcf1f2ea8acda47e05b350",
+      "size_bytes": 2405
+    },
+    "DES=+2006261.csv": {
+      "sha256": "753bcb0a243256986b0b663666d0bbf5dd273f0de753ad0705be1c9cbacf8f83",
+      "size_bytes": 40500
+    },
+    "GODREJIND.csv": {
+      "sha256": "55770473647050ba8f11d46108aac81f38df600e8261b105321fffd5c5a6ecec",
+      "size_bytes": 116303
+    },
+    "YAHOO-BTC_USD_D.csv": {
+      "sha256": "ddbd797b7db4999bbb7e836ad928aba56bea7a5dbeb516afb7d63fd42662a328",
+      "size_bytes": 173887
+    },
+    "Zip_MedianSoldPricePerSqft_AllHomes.csv": {
+      "sha256": "f4dac692bdc69c427a63fe3e77eda2c7ca07c7eb1bdb52a3061b0b91c66f4b7b",
+      "size_bytes": 394007
+    },
+    "abalone.csv": {
+      "sha256": "6fda3c4b0c0cff9bd5f7a46434509179069ed620c8fc7090d872a08d2c1a729a",
+      "size_bytes": 191962
+    },
+    "arrest_expungibility.csv": {
+      "sha256": "c985ca12445770b8559667f3a4c8d18166571b114f2d1c4dc2ac1b3a56c94b39",
+      "size_bytes": 670664
+    },
+    "auto-mpg.csv": {
+      "sha256": "555a2b668da52d7431215df842fb073d1ad220c56d4ac6ec359c0ae9b1beea6b",
+      "size_bytes": 14179
+    },
+    "baro_2015.csv": {
+      "sha256": "34919769cf48ec84fc6358cc1c2f27b56a4e624af293f3ffcd7531f00bcc1d8a",
+      "size_bytes": 382752
+    },
+    "baseball_data.csv": {
+      "sha256": "ffcf9e1931e1fa882782df55c638d8f698a0487c7048126bfcefe088f22e4cf7",
+      "size_bytes": 21647
+    },
+    "beauty and the labor market.csv": {
+      "sha256": "dba6fb21faf1fd88e99f8e55770de819d7cb6db213780d13a42e2f8b3289dbca",
+      "size_bytes": 64937
+    },
+    "bitconnect_price.csv": {
+      "sha256": "c970dd13f2e735fc9a654f69ef6c9669ff2d0466f01eccee000d1dc6e24f5bc2",
+      "size_bytes": 15668
+    },
+    "city_departments_in_current_budget.csv": {
+      "sha256": "8fcaca49cb80ea8345bcee68d545c2046b016de71f5989cd7459a451b75ece51",
+      "size_bytes": 2677
+    },
+    "cost_data_with_errors.csv": {
+      "sha256": "83efce074700d226453f08c9b8faddc4703c70ae0e1888e8e8422994416d1ce0",
+      "size_bytes": 82522
+    },
+    "country_vaccinations.csv": {
+      "sha256": "eb38b5933c1dafbd884a9042c23afc5181bedf6c434d941115444284ea215fcc",
+      "size_bytes": 680231
+    },
+    "e5_aapl.csv": {
+      "sha256": "d81f47727583df630307cc7d648d0f30ae5fea79fe9ff8ad799db344c36f7ae2",
+      "size_bytes": 34849
+    },
+    "election2016.csv": {
+      "sha256": "b2d37e2153fa661b710170db1c9b2d62cef2baf2910535bd5600c32892f48a45",
+      "size_bytes": 291557
+    },
+    "estimated_numbers.csv": {
+      "sha256": "bc485997a837c738907ac5b03aef0f4d0a938edb415861ab37af22bdd243329c",
+      "size_bytes": 66590
+    },
+    "fb_articles_20180822_20180829_df.csv": {
+      "sha256": "506726b8aa93fd36bdb626a4c5fa702295a2207e6b2536e82f738d9cc2522050",
+      "size_bytes": 927008
+    },
+    "ferret-Pitt-2-preinf-lib2-100_sitediffsel.csv": {
+      "sha256": "c9e411ff75df8d966f6e5de9270a4a7276289c478a6b7aa216ce667eac66f540",
+      "size_bytes": 57084
+    },
+    "gapminder_cleaned.csv": {
+      "sha256": "9e6f0a924da3b91a0c7ba24260f773f8648deb2475ca4bbd5d16f1366a0b45a7",
+      "size_bytes": 82019
+    },
+    "gapminder_gdp_asia.csv": {
+      "sha256": "d59ff928054c78dfb6613046d306fbc044ef754c6ca3b2aff71b661a240f869e",
+      "size_bytes": 5103
+    },
+    "hotel_data.csv": {
+      "sha256": "581144a1a813e187abc75c3db8f71c25cbec27afe7956e9be9de369acde1c0f7",
+      "size_bytes": 83961
+    },
+    "imp.score.ldlr.metabolome.csv": {
+      "sha256": "8aa6112a864d4491ec14b7821f0ce889a6f751793ec30c7b9d86c5443e25c553",
+      "size_bytes": 55375
+    },
+    "insurance.csv": {
+      "sha256": "6e3894cf7d9210613f62c866684055decea694345cd4f244ecd7167041578c68",
+      "size_bytes": 54289
+    },
+    "microsoft.csv": {
+      "sha256": "6d0f08343d42a5ad45d1eb2275a99416aa8a0b26be03fe5e74538cff31352292",
+      "size_bytes": 11515
+    },
+    "my_test_01.csv": {
+      "sha256": "3134c6c7260510da5aaa33441743d7aaa52efd88fc4d443e7c7a98f80d734c25",
+      "size_bytes": 23732
+    },
+    "oecd_education_spending.csv": {
+      "sha256": "68a9ce2a7b5c249f01c716d92eb5f7429be1c6185f0160a6b73d6df89e425419",
+      "size_bytes": 9285
+    },
+    "percent-bachelors-degrees-women-usa.csv": {
+      "sha256": "4f3a2a6a6b15fcddddde55bb48a9a3d78cd9557e0538e83d8c972c0b953da5b0",
+      "size_bytes": 5681
+    },
+    "random_stock_data.csv": {
+      "sha256": "425acc100e1a260e1206d7f12aa03e5186a3895a4c4fa2da5b3116f1350d2f76",
+      "size_bytes": 30299
+    },
+    "ravenna_250715.csv": {
+      "sha256": "323831969f08919961b36bb8f6b06f06493b25b01a5cf4fb649f7b39224df7de",
+      "size_bytes": 2306
+    },
+    "test_Y3wMUE5_7gLdaTN.csv": {
+      "sha256": "2248e254edd4260a5cbae11856115d3d0336396239188e970c18c6e12dda4cd8",
+      "size_bytes": 21589
+    },
+    "test_ave.csv": {
+      "sha256": "411cf03455d6026823fbd3ab65e2839075a22f9a5c088b85aef0d272d79cca00",
+      "size_bytes": 55169
+    },
+    "test_x.csv": {
+      "sha256": "be19636b5bb50967a295060f62a26d7911a746527d6d946b0994165bbfade659",
+      "size_bytes": 6741
+    },
+    "titanic.csv": {
+      "sha256": "4a437fde05fe5264e1701a7387ac6fb75393772ba38bb2c9c566405af5af4bd7",
+      "size_bytes": 60302
+    },
+    "titanic_test.csv": {
+      "sha256": "5c78320a80dc159b35c408363be46a5d93f078183d539db75ee42a796d6a4e95",
+      "size_bytes": 28210
+    },
+    "titanic_train.csv": {
+      "sha256": "4a437fde05fe5264e1701a7387ac6fb75393772ba38bb2c9c566405af5af4bd7",
+      "size_bytes": 60302
+    },
+    "tr_eikon_eod_data.csv": {
+      "sha256": "eb59a911fcc95b0b7fd5df55ce9349850dd20e6ae9c8efc9e5db308151c9a5f4",
+      "size_bytes": 209046
+    },
+    "traj-Osak.csv": {
+      "sha256": "a7c439f3f74f6f096579a66fe17d191f600556bacdf4d15060589a4f36912691",
+      "size_bytes": 67251
+    },
+    "tree.csv": {
+      "sha256": "2d0abdcd475f0394b8f2f106faf14e1ae86887c20c3d23bb0541e1a20ef73129",
+      "size_bytes": 699211
+    },
+    "ts-sc4-wi100000-sl25000-Qrob_Chr05.tree_table.csv": {
+      "sha256": "3e0540386cf89b4f5e1d7f2760f9aa3885ea21119d3b12e9e5c07056caae7367",
+      "size_bytes": 2295032
+    },
+    "unemployement_industry.csv": {
+      "sha256": "c6fce742e7177c3ea07f5080dac8a54fcf8069c9bfab11012a4d9e5e1ac94dd9",
+      "size_bytes": 4185
+    },
+    "veracruz 2016.csv": {
+      "sha256": "2890f10a92b706c260de39281a814442249716ea757029ae5425f7e12ff1e11b",
+      "size_bytes": 819397
+    },
+    "weather_data_1864.csv": {
+      "sha256": "6bd35d0c907e8c70ba15cced1d773e0e31b7bfff9f4251719e7740111958aef9",
+      "size_bytes": 285512
+    },
+    "weather_train.csv": {
+      "sha256": "c9bd23cabbba04970b574259b62025c9ac08ef103ae760f66e353b73116620c0",
+      "size_bytes": 840734
+    },
+    "well_2_complete.csv": {
+      "sha256": "14d21b201758300d20e030feb564f67a21d85205d29b866587db9017c83880b8",
+      "size_bytes": 695333
+    }
+  },
+  "samples": [
+    {
+      "id": 0,
+      "file_name": "test_ave.csv"
+    },
+    {
+      "id": 5,
+      "file_name": "test_ave.csv"
+    },
+    {
+      "id": 6,
+      "file_name": "test_ave.csv"
+    },
+    {
+      "id": 7,
+      "file_name": "test_ave.csv"
+    },
+    {
+      "id": 8,
+      "file_name": "test_ave.csv"
+    },
+    {
+      "id": 9,
+      "file_name": "GODREJIND.csv"
+    },
+    {
+      "id": 10,
+      "file_name": "GODREJIND.csv"
+    },
+    {
+      "id": 11,
+      "file_name": "GODREJIND.csv"
+    },
+    {
+      "id": 14,
+      "file_name": "GODREJIND.csv"
+    },
+    {
+      "id": 18,
+      "file_name": "unemployement_industry.csv"
+    },
+    {
+      "id": 19,
+      "file_name": "unemployement_industry.csv"
+    },
+    {
+      "id": 23,
+      "file_name": "unemployement_industry.csv"
+    },
+    {
+      "id": 24,
+      "file_name": "insurance.csv"
+    },
+    {
+      "id": 25,
+      "file_name": "insurance.csv"
+    },
+    {
+      "id": 26,
+      "file_name": "insurance.csv"
+    },
+    {
+      "id": 27,
+      "file_name": "insurance.csv"
+    },
+    {
+      "id": 28,
+      "file_name": "insurance.csv"
+    },
+    {
+      "id": 30,
+      "file_name": "insurance.csv"
+    },
+    {
+      "id": 32,
+      "file_name": "imp.score.ldlr.metabolome.csv"
+    },
+    {
+      "id": 33,
+      "file_name": "imp.score.ldlr.metabolome.csv"
+    },
+    {
+      "id": 34,
+      "file_name": "imp.score.ldlr.metabolome.csv"
+    },
+    {
+      "id": 35,
+      "file_name": "imp.score.ldlr.metabolome.csv"
+    },
+    {
+      "id": 39,
+      "file_name": "imp.score.ldlr.metabolome.csv"
+    },
+    {
+      "id": 55,
+      "file_name": "estimated_numbers.csv"
+    },
+    {
+      "id": 56,
+      "file_name": "estimated_numbers.csv"
+    },
+    {
+      "id": 57,
+      "file_name": "estimated_numbers.csv"
+    },
+    {
+      "id": 58,
+      "file_name": "estimated_numbers.csv"
+    },
+    {
+      "id": 59,
+      "file_name": "estimated_numbers.csv"
+    },
+    {
+      "id": 62,
+      "file_name": "estimated_numbers.csv"
+    },
+    {
+      "id": 64,
+      "file_name": "beauty and the labor market.csv"
+    },
+    {
+      "id": 66,
+      "file_name": "beauty and the labor market.csv"
+    },
+    {
+      "id": 69,
+      "file_name": "beauty and the labor market.csv"
+    },
+    {
+      "id": 70,
+      "file_name": "beauty and the labor market.csv"
+    },
+    {
+      "id": 71,
+      "file_name": "microsoft.csv"
+    },
+    {
+      "id": 72,
+      "file_name": "microsoft.csv"
+    },
+    {
+      "id": 73,
+      "file_name": "microsoft.csv"
+    },
+    {
+      "id": 75,
+      "file_name": "microsoft.csv"
+    },
+    {
+      "id": 77,
+      "file_name": "microsoft.csv"
+    },
+    {
+      "id": 105,
+      "file_name": "test_Y3wMUE5_7gLdaTN.csv"
+    },
+    {
+      "id": 108,
+      "file_name": "test_Y3wMUE5_7gLdaTN.csv"
+    },
+    {
+      "id": 109,
+      "file_name": "test_Y3wMUE5_7gLdaTN.csv"
+    },
+    {
+      "id": 111,
+      "file_name": "test_Y3wMUE5_7gLdaTN.csv"
+    },
+    {
+      "id": 114,
+      "file_name": "2015.csv"
+    },
+    {
+      "id": 116,
+      "file_name": "2015.csv"
+    },
+    {
+      "id": 117,
+      "file_name": "2015.csv"
+    },
+    {
+      "id": 118,
+      "file_name": "2015.csv"
+    },
+    {
+      "id": 123,
+      "file_name": "country_vaccinations.csv"
+    },
+    {
+      "id": 124,
+      "file_name": "country_vaccinations.csv"
+    },
+    {
+      "id": 125,
+      "file_name": "country_vaccinations.csv"
+    },
+    {
+      "id": 129,
+      "file_name": "titanic.csv"
+    },
+    {
+      "id": 130,
+      "file_name": "titanic.csv"
+    },
+    {
+      "id": 132,
+      "file_name": "titanic.csv"
+    },
+    {
+      "id": 133,
+      "file_name": "titanic.csv"
+    },
+    {
+      "id": 136,
+      "file_name": "titanic.csv"
+    },
+    {
+      "id": 137,
+      "file_name": "titanic.csv"
+    },
+    {
+      "id": 139,
+      "file_name": "election2016.csv"
+    },
+    {
+      "id": 140,
+      "file_name": "election2016.csv"
+    },
+    {
+      "id": 142,
+      "file_name": "election2016.csv"
+    },
+    {
+      "id": 144,
+      "file_name": "election2016.csv"
+    },
+    {
+      "id": 174,
+      "file_name": "titanic.csv"
+    },
+    {
+      "id": 175,
+      "file_name": "titanic.csv"
+    },
+    {
+      "id": 176,
+      "file_name": "titanic.csv"
+    },
+    {
+      "id": 177,
+      "file_name": "titanic.csv"
+    },
+    {
+      "id": 178,
+      "file_name": "titanic.csv"
+    },
+    {
+      "id": 179,
+      "file_name": "titanic.csv"
+    },
+    {
+      "id": 180,
+      "file_name": "titanic.csv"
+    },
+    {
+      "id": 207,
+      "file_name": "fb_articles_20180822_20180829_df.csv"
+    },
+    {
+      "id": 208,
+      "file_name": "fb_articles_20180822_20180829_df.csv"
+    },
+    {
+      "id": 209,
+      "file_name": "fb_articles_20180822_20180829_df.csv"
+    },
+    {
+      "id": 210,
+      "file_name": "fb_articles_20180822_20180829_df.csv"
+    },
+    {
+      "id": 214,
+      "file_name": "fb_articles_20180822_20180829_df.csv"
+    },
+    {
+      "id": 216,
+      "file_name": "ferret-Pitt-2-preinf-lib2-100_sitediffsel.csv"
+    },
+    {
+      "id": 217,
+      "file_name": "ferret-Pitt-2-preinf-lib2-100_sitediffsel.csv"
+    },
+    {
+      "id": 218,
+      "file_name": "ferret-Pitt-2-preinf-lib2-100_sitediffsel.csv"
+    },
+    {
+      "id": 219,
+      "file_name": "ferret-Pitt-2-preinf-lib2-100_sitediffsel.csv"
+    },
+    {
+      "id": 220,
+      "file_name": "ferret-Pitt-2-preinf-lib2-100_sitediffsel.csv"
+    },
+    {
+      "id": 222,
+      "file_name": "ferret-Pitt-2-preinf-lib2-100_sitediffsel.csv"
+    },
+    {
+      "id": 224,
+      "file_name": "ferret-Pitt-2-preinf-lib2-100_sitediffsel.csv"
+    },
+    {
+      "id": 234,
+      "file_name": "city_departments_in_current_budget.csv"
+    },
+    {
+      "id": 243,
+      "file_name": "baseball_data.csv"
+    },
+    {
+      "id": 244,
+      "file_name": "baseball_data.csv"
+    },
+    {
+      "id": 247,
+      "file_name": "baseball_data.csv"
+    },
+    {
+      "id": 249,
+      "file_name": "baseball_data.csv"
+    },
+    {
+      "id": 250,
+      "file_name": "baseball_data.csv"
+    },
+    {
+      "id": 252,
+      "file_name": "gapminder_gdp_asia.csv"
+    },
+    {
+      "id": 254,
+      "file_name": "gapminder_gdp_asia.csv"
+    },
+    {
+      "id": 255,
+      "file_name": "gapminder_gdp_asia.csv"
+    },
+    {
+      "id": 268,
+      "file_name": "3901.csv"
+    },
+    {
+      "id": 269,
+      "file_name": "3901.csv"
+    },
+    {
+      "id": 271,
+      "file_name": "3901.csv"
+    },
+    {
+      "id": 272,
+      "file_name": "3901.csv"
+    },
+    {
+      "id": 273,
+      "file_name": "3901.csv"
+    },
+    {
+      "id": 275,
+      "file_name": "3901.csv"
+    },
+    {
+      "id": 277,
+      "file_name": "veracruz 2016.csv"
+    },
+    {
+      "id": 278,
+      "file_name": "veracruz 2016.csv"
+    },
+    {
+      "id": 282,
+      "file_name": "veracruz 2016.csv"
+    },
+    {
+      "id": 297,
+      "file_name": "ts-sc4-wi100000-sl25000-Qrob_Chr05.tree_table.csv"
+    },
+    {
+      "id": 298,
+      "file_name": "ts-sc4-wi100000-sl25000-Qrob_Chr05.tree_table.csv"
+    },
+    {
+      "id": 300,
+      "file_name": "ts-sc4-wi100000-sl25000-Qrob_Chr05.tree_table.csv"
+    },
+    {
+      "id": 304,
+      "file_name": "titanic.csv"
+    },
+    {
+      "id": 308,
+      "file_name": "titanic.csv"
+    },
+    {
+      "id": 309,
+      "file_name": "titanic.csv"
+    },
+    {
+      "id": 310,
+      "file_name": "titanic.csv"
+    },
+    {
+      "id": 320,
+      "file_name": "0020200722.csv"
+    },
+    {
+      "id": 321,
+      "file_name": "0020200722.csv"
+    },
+    {
+      "id": 324,
+      "file_name": "0020200722.csv"
+    },
+    {
+      "id": 326,
+      "file_name": "0020200722.csv"
+    },
+    {
+      "id": 337,
+      "file_name": "Zip_MedianSoldPricePerSqft_AllHomes.csv"
+    },
+    {
+      "id": 338,
+      "file_name": "Zip_MedianSoldPricePerSqft_AllHomes.csv"
+    },
+    {
+      "id": 349,
+      "file_name": "test_x.csv"
+    },
+    {
+      "id": 350,
+      "file_name": "test_x.csv"
+    },
+    {
+      "id": 351,
+      "file_name": "test_x.csv"
+    },
+    {
+      "id": 352,
+      "file_name": "test_x.csv"
+    },
+    {
+      "id": 354,
+      "file_name": "test_x.csv"
+    },
+    {
+      "id": 355,
+      "file_name": "test_x.csv"
+    },
+    {
+      "id": 359,
+      "file_name": "weather_train.csv"
+    },
+    {
+      "id": 360,
+      "file_name": "weather_train.csv"
+    },
+    {
+      "id": 361,
+      "file_name": "weather_train.csv"
+    },
+    {
+      "id": 363,
+      "file_name": "weather_train.csv"
+    },
+    {
+      "id": 372,
+      "file_name": "2014_q4.csv"
+    },
+    {
+      "id": 375,
+      "file_name": "2014_q4.csv"
+    },
+    {
+      "id": 376,
+      "file_name": "2014_q4.csv"
+    },
+    {
+      "id": 378,
+      "file_name": "2014_q4.csv"
+    },
+    {
+      "id": 408,
+      "file_name": "titanic_train.csv"
+    },
+    {
+      "id": 409,
+      "file_name": "titanic_train.csv"
+    },
+    {
+      "id": 410,
+      "file_name": "titanic_train.csv"
+    },
+    {
+      "id": 411,
+      "file_name": "titanic_train.csv"
+    },
+    {
+      "id": 412,
+      "file_name": "titanic_train.csv"
+    },
+    {
+      "id": 413,
+      "file_name": "titanic_train.csv"
+    },
+    {
+      "id": 414,
+      "file_name": "titanic_train.csv"
+    },
+    {
+      "id": 415,
+      "file_name": "titanic_train.csv"
+    },
+    {
+      "id": 418,
+      "file_name": "bitconnect_price.csv"
+    },
+    {
+      "id": 419,
+      "file_name": "bitconnect_price.csv"
+    },
+    {
+      "id": 421,
+      "file_name": "bitconnect_price.csv"
+    },
+    {
+      "id": 423,
+      "file_name": "bitconnect_price.csv"
+    },
+    {
+      "id": 424,
+      "file_name": "bitconnect_price.csv"
+    },
+    {
+      "id": 425,
+      "file_name": "cost_data_with_errors.csv"
+    },
+    {
+      "id": 426,
+      "file_name": "cost_data_with_errors.csv"
+    },
+    {
+      "id": 427,
+      "file_name": "cost_data_with_errors.csv"
+    },
+    {
+      "id": 428,
+      "file_name": "cost_data_with_errors.csv"
+    },
+    {
+      "id": 429,
+      "file_name": "cost_data_with_errors.csv"
+    },
+    {
+      "id": 431,
+      "file_name": "cost_data_with_errors.csv"
+    },
+    {
+      "id": 432,
+      "file_name": "cost_data_with_errors.csv"
+    },
+    {
+      "id": 446,
+      "file_name": "baro_2015.csv"
+    },
+    {
+      "id": 447,
+      "file_name": "baro_2015.csv"
+    },
+    {
+      "id": 449,
+      "file_name": "baro_2015.csv"
+    },
+    {
+      "id": 450,
+      "file_name": "baro_2015.csv"
+    },
+    {
+      "id": 451,
+      "file_name": "baro_2015.csv"
+    },
+    {
+      "id": 452,
+      "file_name": "baro_2015.csv"
+    },
+    {
+      "id": 453,
+      "file_name": "baro_2015.csv"
+    },
+    {
+      "id": 465,
+      "file_name": "arrest_expungibility.csv"
+    },
+    {
+      "id": 466,
+      "file_name": "arrest_expungibility.csv"
+    },
+    {
+      "id": 468,
+      "file_name": "arrest_expungibility.csv"
+    },
+    {
+      "id": 472,
+      "file_name": "oecd_education_spending.csv"
+    },
+    {
+      "id": 473,
+      "file_name": "oecd_education_spending.csv"
+    },
+    {
+      "id": 474,
+      "file_name": "oecd_education_spending.csv"
+    },
+    {
+      "id": 480,
+      "file_name": "oecd_education_spending.csv"
+    },
+    {
+      "id": 490,
+      "file_name": "percent-bachelors-degrees-women-usa.csv"
+    },
+    {
+      "id": 492,
+      "file_name": "percent-bachelors-degrees-women-usa.csv"
+    },
+    {
+      "id": 495,
+      "file_name": "percent-bachelors-degrees-women-usa.csv"
+    },
+    {
+      "id": 496,
+      "file_name": "percent-bachelors-degrees-women-usa.csv"
+    },
+    {
+      "id": 506,
+      "file_name": "hotel_data.csv"
+    },
+    {
+      "id": 507,
+      "file_name": "hotel_data.csv"
+    },
+    {
+      "id": 508,
+      "file_name": "hotel_data.csv"
+    },
+    {
+      "id": 510,
+      "file_name": "hotel_data.csv"
+    },
+    {
+      "id": 513,
+      "file_name": "hotel_data.csv"
+    },
+    {
+      "id": 514,
+      "file_name": "hotel_data.csv"
+    },
+    {
+      "id": 516,
+      "file_name": "titanic.csv"
+    },
+    {
+      "id": 517,
+      "file_name": "titanic.csv"
+    },
+    {
+      "id": 518,
+      "file_name": "titanic.csv"
+    },
+    {
+      "id": 520,
+      "file_name": "titanic.csv"
+    },
+    {
+      "id": 521,
+      "file_name": "titanic.csv"
+    },
+    {
+      "id": 522,
+      "file_name": "titanic.csv"
+    },
+    {
+      "id": 523,
+      "file_name": "titanic.csv"
+    },
+    {
+      "id": 526,
+      "file_name": "titanic_test.csv"
+    },
+    {
+      "id": 527,
+      "file_name": "titanic_test.csv"
+    },
+    {
+      "id": 528,
+      "file_name": "titanic_test.csv"
+    },
+    {
+      "id": 529,
+      "file_name": "titanic_test.csv"
+    },
+    {
+      "id": 530,
+      "file_name": "titanic_test.csv"
+    },
+    {
+      "id": 542,
+      "file_name": "abalone.csv"
+    },
+    {
+      "id": 543,
+      "file_name": "abalone.csv"
+    },
+    {
+      "id": 549,
+      "file_name": "abalone.csv"
+    },
+    {
+      "id": 550,
+      "file_name": "abalone.csv"
+    },
+    {
+      "id": 551,
+      "file_name": "tree.csv"
+    },
+    {
+      "id": 552,
+      "file_name": "tree.csv"
+    },
+    {
+      "id": 553,
+      "file_name": "tree.csv"
+    },
+    {
+      "id": 554,
+      "file_name": "tree.csv"
+    },
+    {
+      "id": 555,
+      "file_name": "tree.csv"
+    },
+    {
+      "id": 572,
+      "file_name": "tr_eikon_eod_data.csv"
+    },
+    {
+      "id": 574,
+      "file_name": "tr_eikon_eod_data.csv"
+    },
+    {
+      "id": 575,
+      "file_name": "tr_eikon_eod_data.csv"
+    },
+    {
+      "id": 578,
+      "file_name": "e5_aapl.csv"
+    },
+    {
+      "id": 586,
+      "file_name": "20170413_000000_group_statistics.csv"
+    },
+    {
+      "id": 587,
+      "file_name": "20170413_000000_group_statistics.csv"
+    },
+    {
+      "id": 588,
+      "file_name": "20170413_000000_group_statistics.csv"
+    },
+    {
+      "id": 589,
+      "file_name": "20170413_000000_group_statistics.csv"
+    },
+    {
+      "id": 590,
+      "file_name": "20170413_000000_group_statistics.csv"
+    },
+    {
+      "id": 593,
+      "file_name": "20170413_000000_group_statistics.csv"
+    },
+    {
+      "id": 602,
+      "file_name": "well_2_complete.csv"
+    },
+    {
+      "id": 604,
+      "file_name": "well_2_complete.csv"
+    },
+    {
+      "id": 618,
+      "file_name": "traj-Osak.csv"
+    },
+    {
+      "id": 619,
+      "file_name": "traj-Osak.csv"
+    },
+    {
+      "id": 643,
+      "file_name": "random_stock_data.csv"
+    },
+    {
+      "id": 644,
+      "file_name": "random_stock_data.csv"
+    },
+    {
+      "id": 647,
+      "file_name": "random_stock_data.csv"
+    },
+    {
+      "id": 649,
+      "file_name": "DES=+2006261.csv"
+    },
+    {
+      "id": 650,
+      "file_name": "DES=+2006261.csv"
+    },
+    {
+      "id": 651,
+      "file_name": "DES=+2006261.csv"
+    },
+    {
+      "id": 652,
+      "file_name": "DES=+2006261.csv"
+    },
+    {
+      "id": 655,
+      "file_name": "DES=+2006261.csv"
+    },
+    {
+      "id": 656,
+      "file_name": "DES=+2006261.csv"
+    },
+    {
+      "id": 657,
+      "file_name": "YAHOO-BTC_USD_D.csv"
+    },
+    {
+      "id": 658,
+      "file_name": "YAHOO-BTC_USD_D.csv"
+    },
+    {
+      "id": 659,
+      "file_name": "YAHOO-BTC_USD_D.csv"
+    },
+    {
+      "id": 662,
+      "file_name": "YAHOO-BTC_USD_D.csv"
+    },
+    {
+      "id": 663,
+      "file_name": "YAHOO-BTC_USD_D.csv"
+    },
+    {
+      "id": 665,
+      "file_name": "YAHOO-BTC_USD_D.csv"
+    },
+    {
+      "id": 666,
+      "file_name": "my_test_01.csv"
+    },
+    {
+      "id": 667,
+      "file_name": "my_test_01.csv"
+    },
+    {
+      "id": 668,
+      "file_name": "my_test_01.csv"
+    },
+    {
+      "id": 669,
+      "file_name": "my_test_01.csv"
+    },
+    {
+      "id": 671,
+      "file_name": "my_test_01.csv"
+    },
+    {
+      "id": 673,
+      "file_name": "my_test_01.csv"
+    },
+    {
+      "id": 674,
+      "file_name": "my_test_01.csv"
+    },
+    {
+      "id": 683,
+      "file_name": "ravenna_250715.csv"
+    },
+    {
+      "id": 684,
+      "file_name": "ravenna_250715.csv"
+    },
+    {
+      "id": 685,
+      "file_name": "ravenna_250715.csv"
+    },
+    {
+      "id": 688,
+      "file_name": "ravenna_250715.csv"
+    },
+    {
+      "id": 690,
+      "file_name": "ravenna_250715.csv"
+    },
+    {
+      "id": 710,
+      "file_name": "Current_Logan.csv"
+    },
+    {
+      "id": 715,
+      "file_name": "Current_Logan.csv"
+    },
+    {
+      "id": 716,
+      "file_name": "Current_Logan.csv"
+    },
+    {
+      "id": 719,
+      "file_name": "auto-mpg.csv"
+    },
+    {
+      "id": 721,
+      "file_name": "auto-mpg.csv"
+    },
+    {
+      "id": 722,
+      "file_name": "auto-mpg.csv"
+    },
+    {
+      "id": 723,
+      "file_name": "auto-mpg.csv"
+    },
+    {
+      "id": 724,
+      "file_name": "auto-mpg.csv"
+    },
+    {
+      "id": 725,
+      "file_name": "auto-mpg.csv"
+    },
+    {
+      "id": 726,
+      "file_name": "auto-mpg.csv"
+    },
+    {
+      "id": 727,
+      "file_name": "auto-mpg.csv"
+    },
+    {
+      "id": 729,
+      "file_name": "gapminder_cleaned.csv"
+    },
+    {
+      "id": 730,
+      "file_name": "gapminder_cleaned.csv"
+    },
+    {
+      "id": 732,
+      "file_name": "gapminder_cleaned.csv"
+    },
+    {
+      "id": 733,
+      "file_name": "gapminder_cleaned.csv"
+    },
+    {
+      "id": 734,
+      "file_name": "gapminder_cleaned.csv"
+    },
+    {
+      "id": 736,
+      "file_name": "gapminder_cleaned.csv"
+    },
+    {
+      "id": 737,
+      "file_name": "Credit.csv"
+    },
+    {
+      "id": 738,
+      "file_name": "Credit.csv"
+    },
+    {
+      "id": 739,
+      "file_name": "Credit.csv"
+    },
+    {
+      "id": 740,
+      "file_name": "Credit.csv"
+    },
+    {
+      "id": 741,
+      "file_name": "Credit.csv"
+    },
+    {
+      "id": 743,
+      "file_name": "Credit.csv"
+    },
+    {
+      "id": 755,
+      "file_name": "weather_data_1864.csv"
+    },
+    {
+      "id": 756,
+      "file_name": "weather_data_1864.csv"
+    },
+    {
+      "id": 757,
+      "file_name": "weather_data_1864.csv"
+    },
+    {
+      "id": 759,
+      "file_name": "weather_data_1864.csv"
+    },
+    {
+      "id": 760,
+      "file_name": "weather_data_1864.csv"
+    }
+  ],
+  "splits": {
+    "development": [
+      320,
+      321,
+      324,
+      326,
+      372,
+      375,
+      376,
+      378,
+      114,
+      116,
+      117,
+      118,
+      586,
+      587,
+      588,
+      589,
+      590,
+      593,
+      337,
+      338
+    ],
+    "final": [
+      0,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      14,
+      18,
+      19,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      30,
+      32,
+      33,
+      34,
+      35,
+      39,
+      55,
+      56,
+      57,
+      58,
+      59,
+      62,
+      64,
+      66,
+      69,
+      70,
+      71,
+      72,
+      73,
+      75,
+      77,
+      105,
+      108,
+      109,
+      111,
+      123,
+      124,
+      125,
+      129,
+      130,
+      132,
+      133,
+      136,
+      137,
+      139,
+      140,
+      142,
+      144,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      207,
+      208,
+      209,
+      210,
+      214,
+      216,
+      217,
+      218,
+      219,
+      220,
+      222,
+      224,
+      234,
+      243,
+      244,
+      247,
+      249,
+      250,
+      252,
+      254,
+      255,
+      268,
+      269,
+      271,
+      272,
+      273,
+      275,
+      277,
+      278,
+      282,
+      297,
+      298,
+      300,
+      304,
+      308,
+      309,
+      310,
+      349,
+      350,
+      351,
+      352,
+      354,
+      355,
+      359,
+      360,
+      361,
+      363,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      418,
+      419,
+      421,
+      423,
+      424,
+      425,
+      426,
+      427,
+      428,
+      429,
+      431,
+      432,
+      446,
+      447,
+      449,
+      450,
+      451,
+      452,
+      453,
+      465,
+      466,
+      468,
+      472,
+      473,
+      474,
+      480,
+      490,
+      492,
+      495,
+      496,
+      506,
+      507,
+      508,
+      510,
+      513,
+      514,
+      516,
+      517,
+      518,
+      520,
+      521,
+      522,
+      523,
+      526,
+      527,
+      528,
+      529,
+      530,
+      542,
+      543,
+      549,
+      550,
+      551,
+      552,
+      553,
+      554,
+      555,
+      572,
+      574,
+      575,
+      578,
+      602,
+      604,
+      618,
+      619,
+      643,
+      644,
+      647,
+      649,
+      650,
+      651,
+      652,
+      655,
+      656,
+      657,
+      658,
+      659,
+      662,
+      663,
+      665,
+      666,
+      667,
+      668,
+      669,
+      671,
+      673,
+      674,
+      683,
+      684,
+      685,
+      688,
+      690,
+      710,
+      715,
+      716,
+      719,
+      721,
+      722,
+      723,
+      724,
+      725,
+      726,
+      727,
+      729,
+      730,
+      732,
+      733,
+      734,
+      736,
+      737,
+      738,
+      739,
+      740,
+      741,
+      743,
+      755,
+      756,
+      757,
+      759,
+      760
+    ]
+  }
+}
